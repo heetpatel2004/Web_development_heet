@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heet Nakrani- Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- box-icon links -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- navbar-home -->
+     <nav>
+        <a href="#" class="logo">Heet Nakrani</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+
+        <!-- menu-list -->
+         <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About us</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">work</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact me</a></li>
+         </ul>
+     </nav>
+
+     <!-- main-page -->
+
+     <section id="home">
+        <div class="home-text">
+            <h1>hey..!I'm <br>Heet <span>Nakrani</span> <br>Passionate Web Developer</h1>
+            <!-- hire_me-button -->
+            <a href="#">Connect with me</a>
+        </div>
+        <!-- home-image -->
+         <div class="home-img">
+            <img src="images/profile-image.png" alt="">
+         </div>
+
+         <!-- social-media-icons -->
+
+         <div class="social-Media">
+           <a href="#"> <i class='bx bxl-facebook-circle'></a></i>
+           <a href="#"> <i class='bx bxl-twitter' ></a></i>
+           <a href="#"><i class='bx bxl-github'></a></i>
+         </div>
+     </section>
+
+     <!-- about us section -->
+
+     <section id="about">
+        <!-- heading -->
+         <div class="heading">
+            <h2>About us</h2>
+            <p>My Introduction</p>
+         </div>
+         <!-- about content -->
+          <div class="about-content">
+            <div class="about-img">
+                <img src="images/about-me-image.png" alt="">
+            </div>
+            <div class="about-text">
+                <h1>Hey I'm Heet</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse accusantium provident ratione expedita incidunt placeat magnam? Maiores corrupti dicta ipsa!</p>
+                <!-- button -->
+                 <a href="#">Download CV</a>
+            </div>
+          </div>
+     </section>
+
+     <!-- service section -->
+      <section id="services">
+        <!-- heading section(service section) -->
+         <div class="heading">
+            <h2>services</h2>
+            <p>services we offer, </p>
+         </div>
+         <div class="services-content">
+            <!-- boxes of services offered -->
+            <div class="box">
+                <img src="images/html_course.png" alt="services HTML">
+                <h1>HTML projects</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis qui libero officiis itaque sunt reiciendis!</p>
+            </div>
+            <!-- boxes of services offered -->
+            <div class="box">
+                <img src="images/js-proj.png" alt="services HTML">
+                <h1>js projects</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis qui libero officiis itaque sunt reiciendis!</p>
+            </div>
+            <!-- boxes of services offered -->
+            <div class="box">
+                <img src="images/cs-proj.png" alt="services HTML">
+                <h1>Cybersecurity</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis qui libero officiis itaque sunt reiciendis!</p>
+            </div>
+            <!-- boxes of services offered -->
+            <div class="box">
+                <img src="images/prototypes-proj.png" alt="services HTML">
+                <h1>Prototypes</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis qui libero officiis itaque sunt reiciendis!</p>
+            </div>
+            <!-- boxes of services offered -->
+            <div class="box">
+                <img src="images/business-sol-proj.png" alt="services HTML">
+                <h1>Business Solutions</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis qui libero officiis itaque sunt reiciendis!</p>
+            </div>
+            <!-- boxes of services offered -->
+            <div class="box">
+                <img src="images/enterprise-proj.png" alt="services HTML">
+                <h1>Enterprise solution</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis qui libero officiis itaque sunt reiciendis!</p>
+            </div>
+         </div>
+      </section>
+
+      <!-- work section -->
+       <section id="work">
+        <div class="heading">
+            <h2>work</h2>
+            <p>work with us</p>
+        </div>
+        <div class="work-content">
+            <div class="work-text">
+                <h1>we believe in delivering <br>quality work</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea corporis ex esse beatae neque nemo inventore cumque numquam aperiam tempore?</p>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="work-img">
+                <img src="images/work-img.png" alt="">
+            </div>
+        </div>
+       </section>
+
+       <!-- contact us section -->
+        <section id="contact">
+            <div class="heading color">
+                <h2>contact</h2>
+                <p>leave a message we will try our best to reply you</p>
+            </div>
+            <div class="contact-content">
+                <div class="app">
+                    <h1>connect with us <br>by using our apps</h1>
+                    <a href="#"><i class='bx bxl-play-store'></i></a>
+                    <a href="#"><i class='bx bxl-apple'></i></a>
+                </div>
+                <div class="contact-form">
+                    <form action="">
+                        <input type="text" placeholder="name">
+                        <input type="email" placeholder="your email id">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="your message here...."></textarea>
+                        <input type="button" value="send" class="contact-button">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- copyright -->
+            <div class="copyright">
+                <p>&#169; Shreeji Infotech all rights reserved</p>
+            </div>
+
+            <!-- scroll animation link -->
+            <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
